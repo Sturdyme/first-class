@@ -1,0 +1,109 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    width: 100px;
+    height: 70px;
+}
+.profile-image{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+
+}
+.right-nav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 30%;
+    justify-content: end;
+
+}
+.left-nav{
+flex: 30%;
+}
+.middle-nav{
+flex: 40%;
+}
+.input-box{
+   
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+input{
+    width: 100%;
+    height: 100%;
+  text-indent: 10px;
+  outline: darkblue;
+  border: none;
+
+}
+.create-btn{
+    border: none;
+    width: fit-content ;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-weight: 500;
+    cursor: pointer;
+   
+}
+.create-btn:hover{
+    background-color: rgba(128, 128, 128, 0.41);
+    cursor: pointer;
+
+}
+.create-btn i{
+    margin-right: 5px;
+}
+.notification{
+   position: relative;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notification button{
+    background: none;
+    border: none;
+}
+.notification:hover{
+   background-color: rgba(128, 128, 128, 0.533);
+   cursor: pointer;
+}
+.notification div{
+    width: fit-content;
+    padding: 0px 3px;
+    border-radius: 6px;
+    font-weight: 600;
+    background-color: red;
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.mic{
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+
+}
+.mic:hover{
+    background-color: rgba(128, 128, 128, 0.533);
+    cursor: pointer;
+}
